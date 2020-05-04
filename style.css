@@ -1,0 +1,135 @@
+<style>
+
+	body{
+		background-color: #EAEFF2;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	tr.r1{
+		background-size: 50px;
+		background-color: #145678;
+		padding: 0;
+		margin: 0;
+		top: 0;
+		position: absolute;
+		left: 0;
+		right: 0;
+		
+	}
+
+	tr.r2{
+		background-color: #145678;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+
+	tr.r3{
+		padding: 0;
+		margin: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		
+	}
+
+	tr.r4{
+		margin: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		top: 0;
+		
+	}
+
+	
+	td.menu{
+		background-color: #2E8FC0;
+		height: 50px;
+		font-size: 18px;
+
+	}
+
+	a.menu_link:link{
+		text-decoration: none;
+	}
+
+	a.menu_link:hover{
+		color: yellow;
+	}
+
+	a.menu_link{
+		color: white;
+	}
+
+	ul.rig {
+		list-style: none;
+		font-size: 0px;
+		margin-left: -2.5%;
+	}
+
+	ul.rig li{
+		display: inline-block;
+		padding: 15px;
+		font-size: 11px;
+		border: 1px solid black;
+		vertical-align: top;
+		box-shadow: 0 0 5px black;
+		box-sizing: border-box;
+		width: 250px;
+		height: 200px;
+		margin: 0 0 10px;
+	}
+
+	ul.rig li h2 {
+		margin: 20px 30px 60px;
+		color: #652B2B;
+	}
+
+	ul.rig li:hover{
+		background-color: #7FD3F2;
+	}
+
+	ul.rig.colums-5{
+		width: 50.5px;
+	}
+
+	table.tab1{
+		border-width: 3px;
+		border-style: solid;
+		background-color: white;
+		border-color: black;
+		
+	}
+
+
+	table.foot{
+		position: absolute;
+  		right: 0;
+  		bottom: -600px;
+  		left: 0;
+  		padding: 0;
+  		margin: 0;
+  		background-color: #424750;
+  		text-align: center;
+  		color: white;
+  		padding: 1rem;
+	}
+
+
+	button.btn{
+		background-color: #A6D9E9;
+		color: black;
+		height: 40px;
+		width: 100px;
+
+	}
+
+</style>
